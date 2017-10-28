@@ -1,13 +1,16 @@
 body {
     background-color: rgba(232,239,221);
     text-align: center;
-    margin: 0 0;
     font-family: Advent Pro;
 
-    background-color: #32C1E9;
+    background-color: rgb(126, 171, 112);
     background-image: url('https://i.imgur.com/GLNbZoP.png');
     background-repeat: no-repeat;
     background-size: cover;
+
+    margin: 0 0;
+    height: 100%;
+    width: 100%;
 }
 
 .landing {
@@ -54,6 +57,7 @@ body {
 }
 .main {
     color: #633e24;
+    height: 100%;
 }
 .about-name {
     padding-top: 10%;
@@ -62,12 +66,25 @@ body {
 .about-me {
     background-color: rgba(178,150,132,0.8);
     box-shadow: 5px 5px 5px black;
-    font-size: 23px;
+    
     width: 40%;
-    padding: 10px 0;
-    margin: 5% auto;
+    font-size: 1.5vw;
+    padding: 10px 10px;
+    margin: 2% auto;
+}
+@media only screen 
+and (max-width: 1200px) {
+    .landing-name {
+        font-size: 75px;
+    }
+    .about-name {
+        font-size: 75px;
+    }
+    .about-me {
+        font-size: 2.1vw;
+    }
 }
 .github-logo {
-    height: 17px;
-    width: 17px;
+    height: 0.7vw;
+    width: 0.7vw;
 }
